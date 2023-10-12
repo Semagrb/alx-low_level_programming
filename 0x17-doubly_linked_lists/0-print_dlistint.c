@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_dlistint - Prints doubly-linked list
- * @h: address of head mode
+ * print_dlistint - prints doubly-linked list
+ * @h: address of head node
  * 
  * Return: size of list
  */
