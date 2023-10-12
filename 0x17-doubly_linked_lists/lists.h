@@ -24,9 +24,10 @@ size_t print_dlistint (const distint_t *h);
 size_t dlistint_len(const distint_t *h);
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
-void free_distlint(dlistint_t *head);
+void free_dlistlint(dlistint_t *head);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
-int sum dlistint(alistint _t * head);
-dlistint_t *insert dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
-int delete_dnodeint_at_index(distint_t **head, unsigned int index);
+int sum_dlistint(dlistint_t * head);
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+
 #endif
