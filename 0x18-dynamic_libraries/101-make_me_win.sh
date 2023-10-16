@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -shared -o /tmp/hack.so /path/to/your/hacked_library.c
-LD_PRELOAD=/tmp/hack.so ./gm 9 8 10 24 75 9²
+wget -P /tmp https://github.com/semagrb/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libgiga.so
+export LD_PRELOAD=/tmp/libgiga.so
